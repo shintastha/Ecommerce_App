@@ -20,7 +20,7 @@ class AppRouter {
           name: 'search',
           path: '/search',
           pageBuilder: (context, state) {
-            return MaterialPage(
+            return const MaterialPage(
               child: SearchPage(),
             );
           }),
@@ -28,7 +28,7 @@ class AppRouter {
           name: 'cart',
           path: '/cart',
           pageBuilder: (context, state) {
-            return MaterialPage(
+            return const MaterialPage(
               child: CartPage(),
             );
           }),
@@ -36,7 +36,7 @@ class AppRouter {
           name: 'profile',
           path: '/profile',
           pageBuilder: (context, state) {
-            return MaterialPage(
+            return const MaterialPage(
               child: ProfilePage(),
             );
           }),

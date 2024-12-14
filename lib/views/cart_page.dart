@@ -52,11 +52,11 @@ class _CartPageState extends State<CartPage> {
                           foregroundColor: Colors.white,
                           padding: const EdgeInsets.symmetric(
                               horizontal:
-                                  20), // Add padding for better touch area
+                                  20),
                           borderRadius: BorderRadius.circular(
-                              10), // Rounded corners for the action button
+                              10), 
                           autoClose:
-                              true, // Closes automatically after performing the action
+                              true, 
                           flex: 2,
                           icon: Icons.delete,
                         )
