@@ -3,7 +3,6 @@ import 'package:ecommerce_app/views/bottom_navigation.dart';
 import 'package:ecommerce_app/views/cart_page.dart';
 import 'package:ecommerce_app/views/first_screen.dart';
 import 'package:ecommerce_app/views/home_page.dart';
-import 'package:ecommerce_app/views/product_detail_page.dart';
 import 'package:ecommerce_app/views/profile_page.dart';
 import 'package:ecommerce_app/views/search_page.dart';
 import 'package:get/get.dart';
@@ -12,14 +11,14 @@ class AppRoutes {
   static appRoutes() => [
         GetPage(
           name: RouteName.authScreen,
-          page: () => FirstScreen(),
+          page: () => const FirstScreen(),
           transition: Transition.leftToRightWithFade,
           transitionDuration: const Duration(milliseconds: 250),
         ),
 
          GetPage(
           name: RouteName.bottomNavigation,
-          page: () => BottomNavigation(),
+          page: () => const BottomNavigation(),
           transition: Transition.leftToRightWithFade,
           transitionDuration: const Duration(milliseconds: 250),
         ),
@@ -33,20 +32,20 @@ class AppRoutes {
 
          GetPage(
           name: RouteName.searchScreen,
-          page: () => SearchPage(),
+          page: () => const SearchPage(),
           transition: Transition.leftToRightWithFade,
           transitionDuration: const Duration(milliseconds: 250),
         ),
 
          GetPage(
           name: RouteName.cartScreen,
-          page: () => CartPage(),
+          page: () => const CartPage(),
           transition: Transition.leftToRightWithFade,
           transitionDuration: const Duration(milliseconds: 250),
         ),
          GetPage(
           name: RouteName.profileScreen,
-          page: () => ProfilePage(),
+          page: () => const ProfilePage(),
           transition: Transition.leftToRightWithFade,
           transitionDuration: const Duration(milliseconds: 250),
         ),

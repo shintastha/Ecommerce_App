@@ -1,5 +1,4 @@
 import 'package:ecommerce_app/controllers/auth_controller.dart';
-import 'package:ecommerce_app/views/bottom_navigation.dart';
 import 'package:ecommerce_app/widgets/auth_field.dart';
 import 'package:flutter/material.dart';
 import 'package:ecommerce_app/res/theme/app_pallete.dart';
